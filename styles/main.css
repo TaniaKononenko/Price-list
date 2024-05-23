@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+   font-family: 'Montserrat', sans-serif;
+   color: #FFFF;
+   font-size: 15px;
+   font-weight: 300px;
+    background: #141B1C;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*Basic Website*/
+
+.price-card{
+    width: 380px;
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    margin: 10px;
+}
+
+.price-card__title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.price-card__subtitle{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+ .price-card__price{
+    margin-top: 41px;
+}
+
+.green .price-card__price{
+    background: #5BB189;
+}
+
+.price-card__description{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 35px
+}
+
+.options-list__item{
+    text-align: left;
+    padding: 40px;
+}
+
+.options-list__item:nth-child(odd){
+    width: 380px;
+    height: 50px;
+    background: #2A3438;
+}
+
+.options-list__item img {
+    margin: 0 8px 0 0;
+}
+
+.button{
+    width: 154px;
+    height: 40px;
+    background: #5BB189;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin: 20px;
+}
+
+/*Business Website*/
+
+.blue .price-card__price{
+    background: #3A6BA5;
+}
+
+.button-blue{
+    width: 154px;
+    height: 40px;
+    background: #3A6BA5;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin: 20px;
+}
+
+.badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -8px;
+  padding-right: 287px;
+}
+
+/*Webshop Website*/
+
+.red .price-card__price{
+    background: #EC632A;
+}
+
+.button-red{
+    width: 154px;
+    height: 40px;
+    background: #EC632A;
+    border-radius: 20px;
+    margin-top: 63px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin: 20px;
+}
